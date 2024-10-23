@@ -9,8 +9,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const db = mysql.createConnection({
   host: 'mysql-service',
   user: 'root',
-  password: 'yourpassword',
-  database: 'userdb'
+  password: 'myrootpa55',
+  database: 'USERDB'
 });
 
 db.connect((err) => {
